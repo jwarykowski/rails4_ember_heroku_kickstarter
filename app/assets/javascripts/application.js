@@ -16,13 +16,13 @@
 //= require handlebars
 //= require ember
 //= require ember-data
-//= require local_storage_adapter
-//= require_self
-//= require kickstarter_rails4_ember_heroku
-
-KickstarterRails4EmberHeroku = Ember.Application.create();
-KickstarterRails4EmberHeroku.ApplicationAdapter = DS.LSAdapter.extend({
-  namespace: 'todos-emberjs'
-});
-
-//= require_tree .
+//= require_tree ./libs
+//= require ./app/app
+//= require ./app/store
+//= require_tree ./app/models
+//= require_tree ./app/controllers
+//= require_tree ./app/views
+//= require_tree ./app/helpers
+//= require_tree ./app/templates
+//= require ./app/router
+//= require_tree ./app/routes
