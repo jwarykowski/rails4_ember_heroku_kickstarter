@@ -8,9 +8,10 @@
     <title><%= content_for?(:title) ? yield(:title) : "KickstarterRails4EmberHeroku" %></title>
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag "application", :media => "all" %>
-    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   </head>
   <body>
     <%= yield %>
+
+    <%= javascript_include_tag "application" %>
   </body>
 </html>
