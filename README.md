@@ -1,4 +1,4 @@
-kickstarter_rails4_heroku
+rails4_ember_heroku_kickstarter
 =========================
 
-Base rails 4.0 app with twitter bootstrap setup specifically for heroku
+Base rails 4.0 app with ember js specifically for heroku
