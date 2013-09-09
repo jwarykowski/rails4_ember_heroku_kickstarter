@@ -1,4 +1,4 @@
 rails4_ember_heroku_kickstarter
 =========================
 
-Base rails 4.0 app with ember js specifically for heroku
+Base rails 4.0 app setup with ember.js todos application specifically for heroku
